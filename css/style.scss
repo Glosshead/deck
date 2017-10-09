@@ -621,6 +621,20 @@ input.input-inline {
 		font-size: 8pt !important;
 		display: none;
 		align-self: flex-end;
+		min-width: 120px;
+		text-align: center;
+	}
+	.unsaved-indicator {
+		background-color: $color-lightgrey;
+		color: $color-darkgrey;
+		border-radius: 3px;
+		float: right;
+		padding: 0px 10px;
+		font-size: 8pt !important;
+		display: none;
+		align-self: flex-end;
+		min-width: 120px;
+		text-align: center;
 	}
 
 	.icon-help {
